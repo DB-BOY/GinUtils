@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.gin.widget.CustomEditView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top"
+        android:maxLines="10"
+        app:formatter="%s/%s"
+        app:limitCount="100"
+        app:warningFontColor="@android:color/black"
+        app:wordCountTextView="@+id/countTextView"/>
+
+
+</LinearLayout>
